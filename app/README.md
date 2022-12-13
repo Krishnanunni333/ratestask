@@ -46,5 +46,6 @@ An API used for getting returns a list with the average prices for each day on a
 
 #### Notes
 1. **Instead of connecting to DB everytime, I have implemented a cache-like methodology so that we dont need to query the DB for frequently read and very less written tables like the Ports table and the Regions table** 
+2. **I have also followed the oops concepts to reuse the objects as well as for abstraction**
 
 
